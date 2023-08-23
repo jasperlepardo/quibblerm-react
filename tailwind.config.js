@@ -30,7 +30,13 @@ module.exports = {
       'quicksand': ['Quicksand', 'sans-serif'],
       'commissioner': ['Commissioner', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero': "url('../images/hero-banner.png')",
+        'section': "url('../images/section-banner.png')",
+      }
+
+    },
   },
   plugins: [],
 }
