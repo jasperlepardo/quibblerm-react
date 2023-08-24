@@ -28,8 +28,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      'quicksand': ['Quicksand', 'sans-serif'],
-      'commissioner': ['Commissioner', 'sans-serif'],
+      'sans': ['Quicksand', 'sans-serif'],
     },
     extend: {
       backgroundImage: {

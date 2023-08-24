@@ -39,7 +39,7 @@ export default function Home() {
                     <p className="font-light leading-normal mb-4">Maximize revenue, drive loyalty, and identify targeted listing + property enhancements, all at the scale of your business.</p>
                     <p className="font-light leading-normal mb-4">Our advanced data-science models enable revenue managers to make probabilistic decisions using <b className="font-semibold">millions of option simulations</b> and hundreds of data points to predict and enhance market share and profitability.</p>
                     <p className="font-light leading-normal mb-10">Quibble for Enterprise is designed around the <b className="font-semibold">mass data aggregation</b> and <b className="font-semibold">workflow needs of large operators</b> like you, not the small guys.</p>
-                    <Link className="font-quicksand font-semibold text-center block md:inline-block px-6 py-3 bg-violet-500 text-white rounded" to="">Request a demo <img className="inline-block" src={buttonArrow} alt=""/></Link>
+                    <Link className="font-semibold text-center block md:inline-block px-6 py-3 bg-violet-500 text-white rounded" to="">Request a demo <img className="inline-block" src={buttonArrow} alt=""/></Link>
                 </div>
             </div>
         </div>
@@ -51,29 +51,29 @@ export default function Home() {
             <p className="leading-normal mb-4">PROVEN RESULTS for enterprise STR operators using Quibble:</p>
             <div className="grid grid-cols-12 gap-4 mb-10">
                 <div className="lg:col-span-3 sm:col-span-6 col-span-12 p-6 bg-white">
-                    <p className="font-quicksand font-semibold text-5xl text-[#1BA6BF]">18<sup className="-top-[0.25em]">%</sup><img className="inline-block" src={arrow} alt="" /></p>
+                    <p className="font-semibold text-5xl text-[#1BA6BF]">18<sup className="-top-[0.25em]">%</sup><img className="inline-block" src={arrow} alt="" /></p>
                     <hr className="my-2 border-t-4 border-dotted" />
                     <p className="leading-normal">Revenue increase</p>
                 </div>
                 <div className="lg:col-span-3 sm:col-span-6 col-span-12 p-6 bg-white">
-                    <p className="font-quicksand font-semibold text-5xl text-[#1BA6BF]">8<sup className="-top-[0.25em]">%</sup><img className="inline-block" src={arrow} alt="" /></p>
+                    <p className="font-semibold text-5xl text-[#1BA6BF]">8<sup className="-top-[0.25em]">%</sup><img className="inline-block" src={arrow} alt="" /></p>
                     <hr className="my-2 border-t-4 border-dotted" />
                     <p className="leading-normal">Occupancy increase</p>
                 </div>
                 <div className="lg:col-span-3 sm:col-span-6 col-span-12 p-6 bg-white">
-                    <p className="font-quicksand font-semibold text-5xl text-[#1BA6BF]">1.5<small className="text-2xl">page</small><img className="inline-block" src={arrow} alt="" /></p>
+                    <p className="font-semibold text-5xl text-[#1BA6BF]">1.5<small className="text-2xl">page</small><img className="inline-block" src={arrow} alt="" /></p>
                     <hr className="my-2 border-t-4 border-dotted" />
                     <p className="leading-normal">Search rank improvement</p>
                 </div>
                 <div className="lg:col-span-3 sm:col-span-6 col-span-12 p-6 bg-white">
-                    <p className="font-quicksand font-semibold text-5xl text-[#1BA6BF]">9<sup className="-top-[0.25em]">%</sup><img className="inline-block" src={arrow} alt="" /></p>
+                    <p className="font-semibold text-5xl text-[#1BA6BF]">9<sup className="-top-[0.25em]">%</sup><img className="inline-block" src={arrow} alt="" /></p>
                     <hr className="my-2 border-t-4 border-dotted" />
                     <p className="leading-normal">RevPAR uplift compared to retail-grade pricing software</p>
                 </div>
             </div>
             <div className="flex lg:flex-row flex-col gap-4 justify-end items-center">
                 <p className="text-center">Quibble for Enterprise offers actionable insights from 100+ customizable data variables</p>
-                <Link className="font-quicksand font-semibold text-center block lg:inline-block  px-6 py-3 bg-violet-500 text-white rounded" to="">Contact us to see the science <img className="inline-block" src={buttonArrow} alt="" /></Link>
+                <Link className="font-semibold text-center block lg:inline-block  px-6 py-3 bg-violet-500 text-white rounded" to="">Contact us to see the science <img className="inline-block" src={buttonArrow} alt="" /></Link>
             </div>
         </div>
       </section>
@@ -81,7 +81,7 @@ export default function Home() {
           <div className="container mx-auto px-4">
               <div className="font-light text-center">
                   <h2 className="text-5xl">You’ve seen the <b className="font-semibold">retail-grade pricing tools</b></h2>
-                  <p className="font-quicksand text-2xl leading-normal mb-4">(But <span className="font-semibold inline-block px-2 py-1 bg-[#F1BD5B] rounded">do they see you</span> and your enterprise needs?)</p>    
+                  <p className="text-2xl leading-normal mb-4">(But <span className="font-semibold inline-block px-2 py-1 bg-[#F1BD5B] rounded">do they see you</span> and your enterprise needs?)</p>    
               </div>
               <img className="hidden md:block mx-auto -mb-10" src={arrowSplit} alt="" />
               <div className="grid md:grid-cols-12 gap-4 mb-10">
@@ -235,7 +235,7 @@ export default function Home() {
                   </div>
               </div>
               <div className="text-center">
-                  <Link className="font-quicksand font-semibold text-center block lg:inline-block px-6 py-3 bg-violet-500 text-white rounded" to="">Reach out to see for yourself <img className="inline-block" src={buttonArrow} alt="" /></Link>
+                  <Link className="font-semibold text-center block lg:inline-block px-6 py-3 bg-violet-500 text-white rounded" to="">Reach out to see for yourself <img className="inline-block" src={buttonArrow} alt="" /></Link>
               </div>
           </div>
         </section>    <section className="py-20 pt-40 pb-[190px] sm:pb-[240px] md:pb[290px] lg:pb-[340px] bg-[#283334] relative ">
@@ -246,24 +246,24 @@ export default function Home() {
                   <div className="bg-white grid grid-cols-[1fr,auto,1fr] lg:grid-cols-1 gap-6 p-6 rounded-lg">
                       <div className="p-4 text-center">
                           <img className="inline-block" src={iconStar} alt="" />
-                          <p className="font-quicksand font-semibold text-[#1BA6BF]">STARS</p>
+                          <p className="font-semibold text-[#1BA6BF]">STARS</p>
                       </div>
                       <div className="border-[1px]"></div>
                       <div className="p-4 text-center">
                           <img className="inline-block"  src={iconGift} alt="" />
-                          <p className="font-quicksand font-semibold text-[#A473ED]">UNDERPRICED</p>
+                          <p className="font-semibold text-[#A473ED]">UNDERPRICED</p>
                       </div>
                       <div className="border-[1px]"></div>
                       <div className="lg:hidden"></div>
                       <div className="border-[1px] lg:hidden"></div>
                       <div className="p-4 text-center">
                           <img className="inline-block"  src={iconHeart} alt="" />
-                          <p className="font-quicksand font-semibold text-[#D79E34]">OVERPRICED</p>
+                          <p className="font-semibold text-[#D79E34]">OVERPRICED</p>
                       </div>
                       <div className="lg:w-auto border-[1px]"></div>
                       <div className="p-4 text-center">
                           <img className="inline-block"  src={iconRain} alt="" />
-                          <p className="font-quicksand font-semibold text-[#697273]">PRODUCT ISSUE</p>
+                          <p className="font-semibold text-[#697273]">PRODUCT ISSUE</p>
                       </div>
                   </div>
               </div>
@@ -336,7 +336,7 @@ export default function Home() {
                   <p className="font-light leading-normal mb-4"><span className="font-semibold">Operators using our existing PMS partners</span> (including Guesty, Hostfully, and others) <span className="font-semibold">can get</span> <span className="font-semibold text-[#1BA6BF]">near-instant access</span> to our analytics platform to play around with live data. Otherwise, new PMS integrations take 2–4 weeks.</p>
                   <p className="font-light leading-normal mb-4">Customization, price modeling, quality control, and optional on-site training add only 3–4 weeks and require few operator resources.</p>
                   <p className="font-light leading-normal mb-10"><span className="font-semibold">Ultimately, it typically takes 4–8 weeks</span> to move from agreement to complete platform optimization, guided by a dedicated Quibble account manager.</p>
-                  <Link className="font-quicksand font-semibold text-center block lg:inline-block px-6 py-3 bg-violet-500 text-white rounded" to="">Ready to talk? <img className="inline-block" src={buttonArrow} alt=""/></Link>
+                  <Link className="font-semibold text-center block lg:inline-block px-6 py-3 bg-violet-500 text-white rounded" to="">Ready to talk? <img className="inline-block" src={buttonArrow} alt=""/></Link>
               </div>
           </div>
       </div>
