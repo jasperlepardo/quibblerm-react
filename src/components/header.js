@@ -14,12 +14,12 @@ function Header() {
 
   return (
 
-    <header className="bg-white py-7 fixed top-0 w-full z-10">
+    <header className="bg-white py-6 fixed top-0 w-full z-10">
         <nav className="container px-4 mx-auto">
             <div className="flex justify-between">
                 <div className="flex space-x-7">
                     <div>
-                        <Link to=""><img className="h-11" src={logo} alt="" /></Link>
+                        <Link to=""><img className="h-12" src={logo} alt="" /></Link>
                     </div>
                 </div>
                 <div className="hidden md:flex items-center space-x-1">

@@ -34,8 +34,7 @@ module.exports = {
       backgroundImage: {
         'hero': "url('../images/hero-banner.png')",
         'section': "url('../images/section-banner.png')",
-      }
-
+      },
     },
   },
   plugins: [],
