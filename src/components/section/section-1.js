@@ -7,7 +7,7 @@ import buttonArrow from "../../images/button-arrow.png"
 
 const Section1 = () => {
     return (
-        <section className="py-10 sm:py-12 md:py-14 lg:py-16 xl:py-20 bg-bottom bg-cover bg-none lg:bg-hero">
+        <section className="py-10 sm:py-12 md:py-14 lg:py-16 xl:py-20 bg-top lg:bg-bottom bg-cover lg:bg-cover bg-hero2">
             <div className="container mx-auto px-6 lg:relative">
                 <h1 className="text-4xl leading-tight md:text-5xl md:leading-tight mb-10 lg:w-9/12 xl:w-7/12">The only airline-grade revenue platform for <b className="font-bold">enterprise</b> STR operators</h1>
                 <div className="grid lg:grid-cols-12 gap-4">

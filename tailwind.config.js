@@ -33,6 +33,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero': "url('../images/hero-banner.png')",
+        'hero2': "url('../images/hero-banner2.png')",
         'section': "url('../images/section-banner.png')",
       },
     },
